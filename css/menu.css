@@ -4,7 +4,6 @@
 }
 
 .menu__image {
-
     position: absolute;
     padding: 15px;
 }
@@ -19,6 +18,7 @@
     background: rgba(0, 0, 0, 1);
     transform: rotate(15deg);
 }
+
 .image__image{
     border-radius: 15px/40px;
 }

@@ -6,16 +6,13 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.tech__title{
-    letter-spacing: 5px;
-}
 
 .tech__images{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
+
 .images__images{
     display: flex;
     flex-direction: column;
@@ -24,14 +21,13 @@
     height: 170px;
     text-align: center;
 }
-.images__memo{
 
-}
 .images__icon{
     cursor: pointer;
     font-size: 8em;
-    transition: color ease-in-out .1s;
+    transition: color ease-in-out .1s, transform ease-in-out 1.5s;
 }
+
 .images__icon--html5:hover{
     color: #F16529;
 }
@@ -46,4 +42,5 @@
 }
 .images__icon--react:hover{
     color: #61DBFB;
+    transform: rotate(360deg);
 }

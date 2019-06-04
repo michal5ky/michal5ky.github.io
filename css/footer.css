@@ -5,8 +5,16 @@
     display: flex;
     flex-direction: row;
 }
+
 .socials__links{
     font-size: 2em;
-    color: white;
+    text-decoration: none;
+}
 
+.links__icon{
+    color: rgba(255,255,255,1);
+    transition: all ease-in-out .2s;
+}
+.links__icon:hover{
+    font-size: 1.1em;
 }

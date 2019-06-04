@@ -7,17 +7,12 @@
     align-items: center;
     width: 100%;
 }
-.welcome__title{
-    letter-spacing: 5px;
-}
 
 .welcome__memo{
     margin: auto;
     display: flex;
     flex-direction: row;
 }
-
-/* studies */
 
 .memo__type{
     display: flex;
@@ -28,6 +23,7 @@
     border-right: 1px solid white;
     transition: all ease-in-out .2s;
 }
+
 .memo__type:nth-of-type(3){
     border: none;
 }
@@ -42,6 +38,7 @@
     font-size: 5em;
     color: rgba(255,180,40,1);
 }
+
 .type__point{
     letter-spacing: 2px;
     font-size: 1.1em;
@@ -49,13 +46,14 @@
     margin: auto;
     width: 100%;
 }
+
 .type__point--studies, .type__point--me, .type__point--work{
     position: relative
 }
 
 .type__point:before{
     font-weight: 600;
-    font-family: 'Font Awesome\ 5 Free';
+    font-family: 'Font Awesome\ 5 Free', sans-serif;
     margin: 0 5px 0 0;
     color: rgba(255,180,40,1);
 }
