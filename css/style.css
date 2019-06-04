@@ -1,0 +1,50 @@
+@import url('menu.css');
+@import url('welcome.css');
+@import url('tech.css');
+@import url('projects.css');
+@import url('footer.css');
+@import url('media.css');
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main__container{
+    flex: 1 1 0;
+    cursor: default;
+    text-align: center;
+    position: relative;
+    color: rgba(255,255,255,1);
+}
+.main__container:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    content: '';
+    background: rgba(255,180,40,1);;
+
+}
+

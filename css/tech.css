@@ -1,0 +1,49 @@
+.container__tech{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tech__title{
+    letter-spacing: 5px;
+}
+
+.tech__images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.images__images{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+.images__memo{
+
+}
+.images__icon{
+    cursor: pointer;
+    font-size: 8em;
+    transition: color ease-in-out .1s;
+}
+.images__icon--html5:hover{
+    color: #F16529;
+}
+.images__icon--css3:hover{
+    color: #2965F1;
+}
+.images__icon--js:hover{
+    color: #F0DB4F;
+}
+.images__icon--sass:hover{
+    color: #CD6799;
+}
+.images__icon--react:hover{
+    color: #61DBFB;
+}

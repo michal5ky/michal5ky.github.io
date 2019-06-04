@@ -1,0 +1,11 @@
+.socials{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.socials__links{
+    font-size: 2em;
+
+}

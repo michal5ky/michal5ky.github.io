@@ -1,0 +1,43 @@
+@media(max-width: 600px){
+    .main__container{
+       max-width: 600px;
+    }
+    .container__welcome{
+        margin: 0;
+    }
+    .welcome__memo{
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .memo__type{
+        max-width: 100%;
+        font-size: .9em;
+        align-self: flex-start;
+    }
+
+}
+@media (max-width: 1513px){
+    .main__menu{
+        display: none;
+    }
+}
+@media (max-width: 1050px){
+    .welcome__memo{
+        flex-direction: column;
+        width: 100%;
+    }
+    .memo__type{
+        border-right: none;
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+    .tech__images{
+        flex-direction: column;
+        width: 100%;
+    }
+    .images__images{
+        width: 100%;
+    }
+}

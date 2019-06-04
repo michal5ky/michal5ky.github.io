@@ -1,0 +1,24 @@
+.main__menu {
+    height: 100%;
+    width: 450px;
+}
+
+.menu__image {
+
+    position: absolute;
+    padding: 15px;
+}
+
+.menu__image:after {
+    left: -50px;
+    bottom: -200px;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    content: '';
+    background: rgba(0, 0, 0, 1);
+    transform: rotate(15deg);
+}
+.image__image{
+    border-radius: 15px/40px;
+}
